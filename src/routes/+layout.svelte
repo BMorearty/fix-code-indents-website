@@ -1,5 +1,13 @@
 <slot />
 
+<footer>
+  <a href="terms">Terms of service</a>
+  |
+  <a href="privacy">Privacy policy</a>
+  |
+  <a href="feedback">Send feedback</a>
+</footer>
+
 <style lang="scss">
   :root {
     max-width: 700px;
@@ -7,7 +15,7 @@
     margin-right: auto;
     font-family: Calibri, Arial, sans-serif;
     font-size: 16px;
-    scroll-behavior: smooth;
+    //scroll-behavior: smooth;
     background-color: #448;
     color: #faf;
     line-height: 1.6;
@@ -17,6 +25,14 @@
     :root {
       scroll-behavior: auto;
     }
+  }
+
+  a {
+    color: #faf;
+  }
+
+  footer {
+    margin-top: 3rem;
   }
 
   :global(h1) {
