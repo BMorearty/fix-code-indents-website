@@ -1,6 +1,8 @@
 <slot />
 
 <footer>
+  <a href="/">Home</a>
+  |
   <a href="terms">Terms of service</a>
   |
   <a href="privacy">Privacy policy</a>
@@ -15,23 +17,16 @@
     margin-right: auto;
     font-family: Calibri, Arial, sans-serif;
     font-size: 16px;
-    //scroll-behavior: smooth;
     background-color: #448;
     color: #faf;
     line-height: 1.6;
   }
 
-  @media screen and (prefers-reduced-motion: reduce) {
-    :root {
-      scroll-behavior: auto;
-    }
-  }
-
-  a {
+  :global(a) {
     color: #faf;
   }
 
-  footer {
+  :global(footer) {
     margin-top: 3rem;
   }
 
