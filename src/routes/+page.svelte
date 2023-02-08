@@ -10,21 +10,13 @@
   text to 4 spaces. And preserves any syntax highlighting you may already have applied.
 </p>
 <div class="compare">
-  <div>
-    <ScreenGrab src={beforeImg} label="Manual" alt="Before Tabs to Spaces" seconds={42} />
-  </div>
-  <div>
-    <ScreenGrab
-      src={afterImg}
-      label="With Tabs to Spaces"
-      alt="After Tabs to Spaces"
-      seconds={5.3}
-    />
-  </div>
+  <ScreenGrab src={beforeImg} label="Manual" alt="Before Tabs to Spaces" seconds={42} />
+  <ScreenGrab src={afterImg} label="With Tabs to Spaces" alt="After Tabs to Spaces" seconds={5.3} />
 </div>
 <p>
   Why convert tabs to spaces? Because Google Docs nonsensically converts every sequence of 4 spaces
   to a tab when you paste. And there's no way to turn it off. This extension reverses that nonsense.
+  Phooey.
 </p>
 <p>
   Even if your code was originally formatted with tabs, Google Docs tabs stops are every ½ inch.
@@ -44,5 +36,11 @@
     grid-template-columns: minmax(112px, 255px) minmax(150px, 341px);
     grid-auto-flow: row;
     grid-gap: 12px;
+  }
+  // Narrow img for mobile
+  @media (max-width: 600px) {
+    img {
+      max-width: 350px;
+    }
   }
 </style>

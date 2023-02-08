@@ -28,13 +28,19 @@
 <div class:donePlaying={$donePlaying}>
   <h2>{label}</h2>
   <progress max={seconds * 1000} value={$progress} />
-  <div><img {src} {alt} onload={imgLoaded()} /></div>
+  <!-- Firefox and Safari won't restart the GIF animation on reload so I'm randomizing the url. -->
+  <span><img src={`${src}?${Math.random()}`} {alt} onload={imgLoaded()} /></span>
 </div>
 
 <style lang="scss">
   h2 {
     margin: 0;
     white-space: nowrap;
+  }
+  @media (max-width: 500px) {
+    h2 {
+      font-size: 1.2rem;
+    }
   }
   progress {
     width: 100%;
@@ -49,11 +55,13 @@
       max-height: 300px;
     }
   }
-  .donePlaying div {
+  .donePlaying span {
     position: relative;
+    display: inline-block;
   }
-  .donePlaying div::after {
+  .donePlaying span::after {
     content: 'Done!';
+    color: white;
     position: absolute;
     text-align: center;
     font-size: 38px;
@@ -62,7 +70,8 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+    background: rgba(10, 0, 90, 0.5);
     z-index: 1;
   }
 </style>
