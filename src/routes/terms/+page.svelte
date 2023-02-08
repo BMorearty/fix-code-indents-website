@@ -52,8 +52,9 @@
   <p>
     In these Software Terms of Service, “Your Content” shall mean any audio, video, text, images, or
     other material you choose to process with the Software. With respect to Your Content, when using
-    The Software, you maintain all rights that you already had and The Software gains no rights to
-    Your Content.
+    The Software, you maintain all rights that you already had and <span class="token"
+      >Brian Morearty</span
+    > gains no rights to Your Content.
   </p>
   <h2>5. No warranties</h2>
   <p>
