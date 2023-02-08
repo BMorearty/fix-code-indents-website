@@ -3,11 +3,11 @@
 <footer>
   <a href="/">Home</a>
   |
-  <a href="terms">Terms of service</a>
+  <a href="/terms">Terms of service</a>
   |
-  <a href="privacy">Privacy policy</a>
+  <a href="/privacy">Privacy policy</a>
   |
-  <a href="feedback">Send feedback</a>
+  <a href="/feedback">Send feedback</a>
 </footer>
 
 <style lang="scss">
@@ -35,6 +35,11 @@
     margin-bottom: 0;
     line-height: 1.2;
     text-shadow: white -1px -1px 1px, black 13px 13px 35px;
+  }
+
+  :global(h2) {
+    font-size: 2rem;
+    text-shadow: black 1px 1px 2px;
   }
 
   @media (max-width: 600px) {
