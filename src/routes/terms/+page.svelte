@@ -3,12 +3,12 @@
 <div class="page page-1">
   <h2>1. Introduction</h2>
   <p>
-    These Terms And Conditions (these “Terms” or these “Terms And Conditions”) contained herein on
-    this webpage, shall govern your use of the Tabs to Spaces extension for Google Docs (a.k.a.
-    “Tabs to Spaces” or “The Software”). These Terms apply in full force and effect to your use of
-    this Software and by using this Software, you expressly accept all terms and conditions
-    contained herein in full. You must not use this Software, if you have any objection to any of
-    these Software Standard Terms And Conditions.
+    These Terms of Service (these “Terms” or these “Terms of Service”) contained herein on this
+    webpage, shall govern your use of the Tabs to Spaces extension for Google Docs (a.k.a. “Tabs to
+    Spaces” or “The Software”). These Terms apply in full force and effect to your use of this
+    Software and by using this Software, you expressly accept all terms of service contained herein
+    in full. You must not use this Software, if you have any objection to any of these Software
+    Terms of Service.
   </p>
   <p>
     This Software is not for use by any minors (defined as those who are not at least 18 years of
@@ -49,7 +49,12 @@
 </div>
 <div class="page page-3">
   <h2>4. Your Content</h2>
-  <p>N/A.</p>
+  <p>
+    In these Software Terms of Service, “Your Content” shall mean any audio, video, text, images, or
+    other material you choose to process with the Software. With respect to Your Content, when using
+    The Software, you maintain all rights that you already had and The Software gains no rights to
+    Your Content.
+  </p>
   <h2>5. No warranties</h2>
   <p>
     This Software is provided “as is,” with all faults, and <span class="token">Brian Morearty</span
@@ -86,7 +91,7 @@
   <p>
     <span class="token">Brian Morearty</span> is permitted to revise these Terms at any time as it sees
     fit, and by using this Software you are expected to review such Terms on a regular basis to ensure
-    you understand all terms and conditions governing use of this Software.
+    you understand all terms of service governing use of this Software.
   </p>
   <h2>10. Assignment</h2>
   <p>
