@@ -6,28 +6,34 @@
 
 <h1>Tabs to Spaces for Google Docs</h1>
 <p>
-  <u>Tabs to Spaces</u> is a Google Docs utility extension for developers. It converts tabs in the selected
-  text to 4 spaces. And preserves any syntax highlighting you may already have applied.
+  <u>Tabs to Spaces</u> is a Google Docs utility extension for developers. It fixes indentation in code
+  you’ve pasted, after Docs screwed it up by converting every sequence of 4 spaces to a tab. It also
+  preserves any syntax highlighting you may already have applied.
 </p>
 <div class="compare">
   <ScreenGrab src={beforeImg} label="Manual" alt="Before Tabs to Spaces" seconds={42} />
   <ScreenGrab src={afterImg} label="With Tabs to Spaces" alt="After Tabs to Spaces" seconds={5.3} />
 </div>
+<h2>Why convert tabs to spaces?</h2>
 <p>
-  Why convert tabs to spaces? Because Google Docs nonsensically converts every sequence of 4 spaces
-  to a tab when you paste. And there's no way to turn it off. This extension reverses that nonsense.
-  Phooey.
+  Because Google Docs nonsensically converts every sequence of 4 spaces to a tab when you paste,
+  completely screwing up your indents. And there’s no way to turn it off. This extension reverses
+  that nonsense. Phooey.
+</p>
+<h2>But I format my code with tabs</h2>
+<p>
+  If you use tab formatting, Docs won’t screw up your pasted code as badly. But it’s still a little
+  weird because the indents aren’t a fixed number of character widths. Google Docs tabs stops are
+  every ½ inch, regardless of your font size.
+</p>
+<h2>Will it mess up the rest of my doc?</h2>
+<p>
+  No. In addition to maintaining your syntax highlighting, Tabs to Spaces leaves your images,
+  tables, etc. untouched. (It will replace tabs in tables.) You can select the whole doc and convert
+  tabs to spaces safely.
 </p>
 <p>
-  Even if your code was originally formatted with tabs, Google Docs tabs stops are every ½ inch.
-  Regardless of your font size. So most code looks weird after pasting.
-</p>
-<p>
-  Leaves images and tables untouched. You can select the whole doc and convert tabs to spaces
-  safely.
-</p>
-<p>
-  <img src="$lib/assets/tabs-to-spaces-screenshot.gif" alt="screenshot" width="700px" />
+  <img src="$lib/assets/tabs-to-spaces-screenshot.gif" alt="screenshot" width="684px" />
 </p>
 
 <style lang="scss">
