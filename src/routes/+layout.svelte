@@ -1,10 +1,6 @@
-<script lang="ts">
-  // import '$lib/assets/global.css';
-</script>
-
 <slot />
 
-<style>
+<style lang="scss">
   :root {
     max-width: 700px;
     margin-left: auto;
@@ -23,12 +19,16 @@
     }
   }
 
-  /* https://stackoverflow.com/a/2711132/468618 */
-  html {
-    /* Prevent font scaling in landscape while allowing user zoom */
-    -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+  :global(h1) {
+    font-size: 5rem;
+    margin-bottom: 0;
+    line-height: 1.2;
+    text-shadow: white -1px -1px 1px, black 13px 13px 35px;
+  }
+
+  @media (max-width: 600px) {
+    :global(h1) {
+      font-size: 3rem;
+    }
   }
 </style>
