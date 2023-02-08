@@ -6,7 +6,7 @@
 
 <h1>Tabs to Spaces for Google Docs</h1>
 <p>
-  <u>Tabs to Spaces</u> is a Google Docs utility extension for developers. It fixes indentation in code
+  <u>Tabs to Spaces</u> is a Google Docs utility add-on for developers. It fixes indentation in code
   you’ve pasted, after Docs screwed it up by converting every sequence of 4 spaces to a tab. It also
   preserves any syntax highlighting you may already have applied.
 </p>
@@ -17,8 +17,8 @@
 <h2>Why convert tabs to spaces?</h2>
 <p>
   Because Google Docs nonsensically converts every sequence of 4 spaces to a tab when you paste,
-  completely screwing up your indents. And there’s no way to turn it off. This extension reverses
-  that nonsense. Phooey.
+  completely screwing up your indents. And there’s no way to turn it off. This add-on reverses that
+  nonsense. Phooey.
 </p>
 <h2>But I format my code with tabs</h2>
 <p>
