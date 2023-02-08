@@ -35,6 +35,19 @@
 <p>
   <img src="$lib/assets/tabs-to-spaces-screenshot.gif" alt="screenshot" width="684px" />
 </p>
+<h2>How do I install it?</h2>
+<ol>
+  <li>Open up Google Docs.</li>
+  <li>Go to the Extensions > Add-ons > Get add-ons menu.</li>
+  <li>Search for Tabs to Spaces.</li>
+  <li>Install.</li>
+</ol>
+<h2>How do I use it?</h2>
+<ol>
+  <li>Select some code you’ve pasted into your document.</li>
+  <li>Go to the Extensions > Add-ons > Tabs to Spaces > Convert.</li>
+</ol>
+<p>See screenshot above for an example.</p>
 
 <style lang="scss">
   .compare {
