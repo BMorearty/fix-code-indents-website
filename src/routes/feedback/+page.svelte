@@ -1,7 +1,3 @@
-<script lang="ts">
-  export let form;
-</script>
-
 <h1>Send feedback</h1>
 
 <h2>
