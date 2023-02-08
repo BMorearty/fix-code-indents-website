@@ -61,7 +61,9 @@
   }
   .donePlaying span::after {
     content: 'Done!';
-    color: white;
+    color: red;
+    text-shadow: black 13px 13px 25px;
+    -webkit-text-stroke: thin black;
     position: absolute;
     text-align: center;
     font-size: 38px;
@@ -71,7 +73,6 @@
     bottom: 0;
     right: 0;
     padding-top: 50px;
-    background: rgba(10, 0, 90, 0.5);
     z-index: 1;
   }
 </style>
