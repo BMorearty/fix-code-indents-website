@@ -45,7 +45,7 @@
 <h2>How do I use it?</h2>
 <ol>
   <li>Select some code you’ve pasted into your document.</li>
-  <li>Go to the Extensions > Add-ons > Tabs to Spaces > Convert.</li>
+  <li>Go to the Extensions > Tabs to Spaces > Convert.</li>
 </ol>
 <p>See screenshot above for an example.</p>
 
