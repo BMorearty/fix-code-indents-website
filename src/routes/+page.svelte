@@ -10,6 +10,10 @@
   you’ve pasted, after Docs screwed it up by converting every sequence of 4 spaces to a tab. It also
   preserves any syntax highlighting you may already have applied.
 </p>
+<p>
+  <em>Works in any language</em>. This does not run Prettier. It does not reformat your code. It
+  just reindents it.
+</p>
 <div class="compare">
   <ScreenGrab src={beforeImg} label="Manual" alt="Before Fix Code Indents" seconds={42} />
   <ScreenGrab
