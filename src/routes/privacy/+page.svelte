@@ -4,7 +4,7 @@
   <div>
     <p />
     <p>
-      I operate the Tabs to Spaces software to provide services to convert text in Google Docs
+      I operate the Fix Code Indents software to provide services to convert text in Google Docs
       documents.
     </p>
     <p>
@@ -29,7 +29,7 @@
   <h3>Automatically collected information</h3>
   <div>
     <p>
-      I do not automatically collect any data on how my users use <em>Tabs to Spaces</em>, such as
+      I do not automatically collect any data on how my users use <em>Fix Code Indents</em>, such as
       your IP address, location, browser, browser language, operating system, device identifiers,
       and cookies.
     </p>
@@ -70,7 +70,7 @@
   <div>
     <p>
       <span
-        >I do my best to keep your private information secure and safe. Tabs to Spaces does its
+        >I do my best to keep your private information secure and safe. Fix Code Indents does its
         processing in-memory and never stores your code or data on disk or sends it over the
         network.
       </span>

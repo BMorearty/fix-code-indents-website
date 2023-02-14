@@ -4,8 +4,8 @@
   <h2>1. Introduction</h2>
   <p>
     These Terms of Service (these “Terms” or these “Terms of Service”) contained herein on this
-    webpage, shall govern your use of the Tabs to Spaces extension for Google Docs (a.k.a. “Tabs to
-    Spaces” or “The Software”). These Terms apply in full force and effect to your use of this
+    webpage, shall govern your use of the Fix Code Indents extension for Google Docs (a.k.a. “Fix
+    Code Indents” or “The Software”). These Terms apply in full force and effect to your use of this
     Software and by using this Software, you expressly accept all terms of service contained herein
     in full. You must not use this Software, if you have any objection to any of these Software
     Terms of Service.
