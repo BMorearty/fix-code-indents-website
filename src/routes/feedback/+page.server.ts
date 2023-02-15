@@ -23,22 +23,27 @@ export const load: ServerLoad = () => {
 export const actions = {
   send: async ({ request }) => {
     const data = await request.formData();
-    const fromName = data.get('name');
-    const fromEmail = data.get('email');
+    const name = data.get('name');
+    const email = data.get('email');
     const subject = data.get('subject');
     const body = data.get('body');
-    if (!fromName || !fromEmail || !subject || !body) {
-      return fail(400, { error: 'Please specify name, email, subject, and body.' });
+    const captcha = data.get('captcha');
+    const entered = { name, email, subject, body, captcha };
+    if (!captcha || (captcha as string) !== 'code') {
+      return fail(400, { error: 'The captcha was wrong.', ...entered });
+    }
+    if (!name || !email || !subject || !body) {
+      return fail(400, { error: 'Please specify name, email, subject, and body.', ...entered });
     }
     await sendEmail({
-      fromEmail: (fromEmail as string).slice(0, MAX_EMAIL),
+      fromEmail: (email as string).slice(0, MAX_EMAIL),
       fromName: 'Fix Code Indents Mailer',
-      replyToEmail: (fromEmail as string).slice(0, MAX_EMAIL),
-      replyToName: (fromName as string).slice(0, MAX_NAME),
+      replyToEmail: (email as string).slice(0, MAX_EMAIL),
+      replyToName: (name as string).slice(0, MAX_NAME),
       toEmail: SUPPORT_EMAIL_ADDRESS,
       toName: SUPPORT_EMAIL_NAME,
       subject: `Fix Code Indents feedback: ${subject.slice(0, MAX_SUBJ)}`,
-      body: (body as string).slice(MAX_BODY),
+      body: (body as string).slice(0, MAX_BODY),
     });
     return {
       success: 'Message sent successfully.',

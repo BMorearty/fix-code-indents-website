@@ -39,6 +39,7 @@ export async function sendEmail({
   if (dev) {
     console.log(`Sending email:
   From: ${fromName} <${fromEmail}>
+  Reply-To: ${replyToName} <${replyToEmail}>
   To: ${toName} <${toEmail}>
   Subject: ${subject}
   Body:

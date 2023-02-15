@@ -16,19 +16,43 @@
   {/if}
   <label>
     <span>Your name</span>
-    <input type="text" name="name" required maxlength={data.maxLength.name} />
+    <input
+      type="text"
+      name="name"
+      value={form?.name ?? ''}
+      required
+      maxlength={data.maxLength.name}
+    />
   </label>
   <label>
     <span>Your email address</span>
-    <input type="text" name="email" required maxlength={data.maxLength.email} />
+    <input
+      type="text"
+      name="email"
+      value={form?.email ?? ''}
+      required
+      maxlength={data.maxLength.email}
+    />
   </label>
   <label>
     <span>Subject</span>
-    <input type="text" name="subject" required maxlength={data.maxLength.subject} />
+    <input
+      type="text"
+      name="subject"
+      value={form?.subject ?? ''}
+      required
+      maxlength={data.maxLength.subject}
+    />
   </label>
   <label>
     <span>Feedback</span>
-    <textarea name="body" rows="20" required maxlength={data.maxLength.body} />
+    <textarea name="body" rows="20" required maxlength={data.maxLength.body}
+      >{form?.body ?? ''}</textarea
+    >
+  </label>
+  <label>
+    <span>What is the second word of “fix code indents”?</span>
+    <input type="text" name="captcha" value={form?.captcha ?? ''} required maxlength="4" />
   </label>
   <input type="submit" value="Send it" />
 </form>
