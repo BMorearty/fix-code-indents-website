@@ -15,11 +15,11 @@
     <div class="success">{form?.success}</div>
   {/if}
   <label>
-    <span>Name</span>
+    <span>Your name</span>
     <input type="text" name="name" required maxlength={data.maxLength.name} />
   </label>
   <label>
-    <span>Email</span>
+    <span>Your email address</span>
     <input type="text" name="email" required maxlength={data.maxLength.email} />
   </label>
   <label>

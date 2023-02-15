@@ -25,14 +25,16 @@ export const actions = {
     if (!fromName || !fromEmail || !subject || !body) {
       return fail(400, { error: 'Please specify name, email, subject, and body.' });
     }
-    await sendEmail(
-      fromEmail as string,
-      fromName as string,
-      SUPPORT_EMAIL_ADDRESS,
-      SUPPORT_EMAIL_NAME,
-      `Fix Code Indents feedback: ${subject}`,
-      body as string
-    );
+    await sendEmail({
+      fromEmail: fromEmail as string,
+      fromName: 'Fix Code Indents Mailer',
+      replyToEmail: fromEmail as string,
+      replyToName: fromName as string,
+      toEmail: SUPPORT_EMAIL_ADDRESS,
+      toName: SUPPORT_EMAIL_NAME,
+      subject: `Fix Code Indents feedback: ${subject}`,
+      body: body as string,
+    });
     return {
       success: 'Message sent successfully.',
     };

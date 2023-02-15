@@ -5,20 +5,32 @@ import { dev } from '$app/environment';
  *
  * https://github.com/bradymholt/sveltekit-auth-template/blob/cf8a988279ea787f595b250721c311f080266482/src/lib/email.ts
  */
-export async function sendEmail(
-  fromEmail: string,
-  fromName: string,
-  toEmail: string,
-  toName: string,
-  subject: string,
-  body: string
-) {
+export async function sendEmail({
+  fromEmail,
+  fromName,
+  replyToEmail,
+  replyToName,
+  toEmail,
+  toName,
+  subject,
+  body,
+}: {
+  fromEmail: string;
+  fromName: string;
+  replyToEmail: string;
+  replyToName: string;
+  toEmail: string;
+  toName: string;
+  subject: string;
+  body: string;
+}) {
   const request = new Request('https://api.mailchannels.net/tx/v1/send', {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
     body: JSON.stringify({
       personalizations: [{ to: [{ email: toEmail, name: toName }] }],
       from: { email: fromEmail, name: fromName },
+      reply_to: { email: replyToEmail, name: replyToName },
       subject,
       content: [{ type: 'text/plain', value: body }],
     }),
