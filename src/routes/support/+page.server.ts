@@ -35,16 +35,19 @@ export const actions = {
     if (!name || !email || !subject || !body) {
       return fail(400, { error: 'Please specify name, email, subject, and body.', ...entered });
     }
-    await sendEmail({
+    const sent = await sendEmail({
       fromEmail: (email as string).slice(0, MAX_EMAIL),
       fromName: 'Fix Code Indents Mailer',
       replyToEmail: (email as string).slice(0, MAX_EMAIL),
       replyToName: (name as string).slice(0, MAX_NAME),
       toEmail: SUPPORT_EMAIL_ADDRESS,
       toName: SUPPORT_EMAIL_NAME,
-      subject: `Fix Code Indents feedback: ${subject.slice(0, MAX_SUBJ)}`,
+      subject: `Fix Code Indents support: ${subject.slice(0, MAX_SUBJ)}`,
       body: (body as string).slice(0, MAX_BODY),
     });
+    if (!sent) {
+      return fail(500, { error: 'An unknown error occurred.', ...entered });
+    }
     return {
       success: 'Message sent successfully.',
     };

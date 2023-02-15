@@ -3,7 +3,7 @@
   export let form;
 </script>
 
-<h1>Send feedback</h1>
+<h1>Get support</h1>
 
 <h2>Found a bug or have feedback? Lemme know.</h2>
 
@@ -45,7 +45,7 @@
     />
   </label>
   <label>
-    <span>Feedback</span>
+    <span>Question or feedback</span>
     <textarea name="body" rows="20" required maxlength={data.maxLength.body}
       >{form?.body ?? ''}</textarea
     >

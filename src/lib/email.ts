@@ -38,12 +38,12 @@ export async function sendEmail({
 
   if (dev) {
     console.log(`Sending email:
-  From: ${fromName} <${fromEmail}>
-  Reply-To: ${replyToName} <${replyToEmail}>
-  To: ${toName} <${toEmail}>
-  Subject: ${subject}
-  Body:
-    ${body.replaceAll('\n', '\n    ')}`);
+      From: ${fromName} <${fromEmail}>
+      Reply-To: ${replyToName} <${replyToEmail}>
+      To: ${toName} <${toEmail}>
+      Subject: ${subject}
+      Body:
+        ${body.replaceAll('\n', '\n        ')}`);
   } else {
     const response = await fetch(request);
     if (response.status >= 400) {
