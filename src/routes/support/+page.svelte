@@ -51,7 +51,7 @@
     >
   </label>
   <label>
-    <span>What is the second word of “fix code indents”?</span>
+    <span>What is the second word of “fix code indents?”</span>
     <input type="text" name="captcha" value={form?.captcha ?? ''} required maxlength="4" />
   </label>
   <input type="submit" value="Send it" />
