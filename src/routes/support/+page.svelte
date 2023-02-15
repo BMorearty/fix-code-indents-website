@@ -63,6 +63,7 @@
   }
   label,
   input[type='text'],
+  input[type='email'],
   textarea {
     display: block;
     width: 100%;
