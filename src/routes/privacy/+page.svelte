@@ -29,9 +29,9 @@
   <h3>Automatically collected information</h3>
   <div>
     <p>
-      I do not automatically collect any data on how my users use <em>Fix Code Indents</em>, such as
-      your IP address, location, browser, browser language, operating system, device identifiers,
-      and cookies.
+      I do not automatically collect any data on how my users use Fix Code Indents, such as your IP
+      address, location, browser, browser language, operating system, device identifiers, and
+      cookies.
     </p>
   </div>
   <h3>Social media information</h3>

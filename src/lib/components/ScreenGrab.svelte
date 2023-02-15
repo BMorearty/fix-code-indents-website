@@ -60,7 +60,7 @@
     display: inline-block;
   }
   .donePlaying span::after {
-    content: 'Done!';
+    content: 'Done.';
     color: red;
     text-shadow: black 13px 13px 25px;
     -webkit-text-stroke: thin black;

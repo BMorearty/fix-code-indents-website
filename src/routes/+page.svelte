@@ -12,10 +12,10 @@
 </p>
 <p>
   <em>Works in any language</em>. This does not run Prettier. It does not reformat your code. It
-  just reindents it.
+  just reindents it by converting tabs back to spaces.
 </p>
 <div class="compare">
-  <ScreenGrab src={beforeImg} label="Manual" alt="Before Fix Code Indents" seconds={42} />
+  <ScreenGrab src={beforeImg} label="Manual" alt="Before Fix Code Indents" seconds={39.2} />
   <ScreenGrab
     src={afterImg}
     label="With Fix Code Indents"
@@ -31,10 +31,10 @@
 </p>
 <h2>But I format my code with tabs</h2>
 <p>
-  If you use tab formatting, Docs won’t screw up your pasted code as badly. But it’s still a little
-  weird because the indents aren’t a fixed number of character widths. Google Docs tabs stops are
-  every ½ inch, regardless of your font size. If you run Fix Code Indents, your tabs will be
-  converted to 4 spaces so indentation will look regular.
+  If you use tabs, Docs won’t screw up your pasted code as badly. But it’s still a little weird
+  because the indents aren’t a fixed number of character widths. Google Docs tabs stops are every ½
+  inch, regardless of your font size. If you run Fix Code Indents, your tabs will be converted to 4
+  spaces so indentation will look regular.
 </p>
 <h2>Will it mess up the rest of my doc?</h2>
 <p>
@@ -55,21 +55,25 @@
 <h2>How do I use it?</h2>
 <ol>
   <li>Select some code you’ve pasted into your document.</li>
-  <li>Go to the Extensions > Fix Code Indents > Convert.</li>
+  <li>Choose Extensions > Fix Code Indents > Reindent.</li>
 </ol>
 <p>See screenshot above for an example.</p>
 
 <style lang="scss">
   .compare {
     display: grid;
-    grid-template-columns: minmax(112px, 255px) minmax(150px, 341px);
+    grid-template-columns: minmax(112px, 242px) minmax(150px, 353px);
     grid-auto-flow: row;
     grid-gap: 12px;
+  }
+  img {
+    box-sizing: border-box;
+    max-width: 580px;
   }
   // Narrow img for mobile
   @media (max-width: 600px) {
     img {
-      max-width: 350px;
+      max-width: 98%;
     }
   }
 </style>
