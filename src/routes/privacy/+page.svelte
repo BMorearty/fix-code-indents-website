@@ -4,8 +4,8 @@
   <div>
     <p />
     <p>
-      I operate the Fix Code Indents software to provide services to convert text in Google Docs
-      documents.
+      I operate the Fix Code Indents software to provide services to convert text in Google
+      Docs&trade; documents.
     </p>
     <p>
       I am committed to protecting users&#8217; privacy and addressing potential privacy concerns.
@@ -86,7 +86,7 @@
   <h2>Additional questions</h2>
   <div>
     <p>
-      If you have questions regarding this privacy policy, feel free to <a href="/feedback"
+      If you have questions regarding this privacy policy, feel free to <a href="/support"
         >contact me
       </a>.
     </p>

@@ -4,11 +4,11 @@
   import afterImg from '$lib/assets/fix-code-indents-after.gif';
 </script>
 
-<h1>Fix Code Indents for Google Docs</h1>
+<h1>Fix Code Indents for Google Docs&trade;</h1>
 <p>
-  <u>Fix Code Indents</u> is a Google Docs utility add-on for developers. It fixes indentation in code
-  you’ve pasted, after Docs screwed it up by converting every sequence of 4 spaces to a tab. It also
-  preserves any syntax highlighting you may already have applied.
+  <u>Fix Code Indents</u> is a Google Docs&trade; utility add-on for developers. It fixes indentation
+  in code you’ve pasted, after Docs&trade; screwed it up by converting every sequence of 4 spaces to
+  a tab. It also preserves any syntax highlighting you may already have applied.
 </p>
 <p>
   <em>Works in any language</em>. This does not run Prettier. It does not reformat your code. It
@@ -25,16 +25,16 @@
 </div>
 <h2>Why convert tabs to spaces?</h2>
 <p>
-  Because Google Docs nonsensically converts every sequence of 4 spaces to a tab when you paste,
-  completely screwing up your indents. And there’s no way to turn it off. This add-on reverses that
-  nonsense. Phooey.
+  Because Google Docs&trade; nonsensically converts every sequence of 4 spaces to a tab when you
+  paste, completely screwing up your indents. And there’s no way to turn it off. This add-on
+  reverses that nonsense. Phooey.
 </p>
 <h2>But I format my code with tabs</h2>
 <p>
-  If you use tabs, Docs won’t screw up your pasted code as badly. But it’s still a little weird
-  because the indents aren’t a fixed number of character widths. Google Docs tabs stops are every ½
-  inch, regardless of your font size. If you run Fix Code Indents, your tabs will be converted to 4
-  spaces so indentation will look regular.
+  If you use tabs, Docs&trade; won’t screw up your pasted code as badly. But it’s still a little
+  weird because the indents aren’t a fixed number of character widths. Google Docs&trade; tabs stops
+  are every ½ inch, regardless of your font size. If you run Fix Code Indents, your tabs will be
+  converted to 4 spaces so indentation will look regular.
 </p>
 <h2>Will it mess up the rest of my doc?</h2>
 <p>
@@ -47,7 +47,7 @@
 </p>
 <h2>How do I install it?</h2>
 <ol>
-  <li>Open up Google Docs.</li>
+  <li>Open up Google Docs&trade;.</li>
   <li>Go to the Extensions > Add-ons > Get add-ons menu.</li>
   <li>Search for Fix Code Indents.</li>
   <li>Install.</li>

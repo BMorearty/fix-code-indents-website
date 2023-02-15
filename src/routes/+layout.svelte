@@ -7,7 +7,7 @@
   |
   <a href="/privacy">Privacy policy</a>
   |
-  <a href="/feedback">Send feedback</a>
+  <a href="/support">Support</a>
 </footer>
 
 <style lang="scss">

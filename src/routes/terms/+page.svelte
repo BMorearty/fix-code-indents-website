@@ -4,11 +4,11 @@
   <h2>1. Introduction</h2>
   <p>
     These Terms of Service (these “Terms” or these “Terms of Service”) contained herein on this
-    webpage, shall govern your use of the Fix Code Indents extension for Google Docs (a.k.a. “Fix
-    Code Indents” or “The Software”). These Terms apply in full force and effect to your use of this
-    Software and by using this Software, you expressly accept all terms of service contained herein
-    in full. You must not use this Software, if you have any objection to any of these Software
-    Terms of Service.
+    webpage, shall govern your use of the Fix Code Indents extension for Google Docs&trade; (a.k.a.
+    “Fix Code Indents” or “The Software”). These Terms apply in full force and effect to your use of
+    this Software and by using this Software, you expressly accept all terms of service contained
+    herein in full. You must not use this Software, if you have any objection to any of these
+    Software Terms of Service.
   </p>
   <p>
     This Software is not for use by any minors (defined as those who are not at least 18 years of
