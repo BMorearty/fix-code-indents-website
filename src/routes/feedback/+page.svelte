@@ -9,7 +9,7 @@
 
 <form action="?/send" method="post">
   {#if form?.error}
-    <div class="error">Error: {form?.error}</div>
+    <div class="error">{form?.error}</div>
   {/if}
   {#if form?.success}
     <div class="success">{form?.success}</div>

@@ -30,7 +30,7 @@ export const actions = {
     const captcha = data.get('captcha');
     const entered = { name, email, subject, body, captcha };
     if (!captcha || (captcha as string) !== 'code') {
-      return fail(400, { error: 'The captcha was wrong.', ...entered });
+      return fail(400, { error: 'Wow ok, need a hint? The captcha word is “code.”', ...entered });
     }
     if (!name || !email || !subject || !body) {
       return fail(400, { error: 'Please specify name, email, subject, and body.', ...entered });
