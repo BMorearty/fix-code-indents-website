@@ -27,7 +27,7 @@
   <label>
     <span>Your email address</span>
     <input
-      type="text"
+      type="email"
       name="email"
       value={form?.email ?? ''}
       required
