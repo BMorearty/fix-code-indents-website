@@ -15,26 +15,12 @@ export async function sendEmail(
 ) {
   const request = new Request('https://api.mailchannels.net/tx/v1/send', {
     method: 'POST',
-    headers: {
-      'content-type': 'application/json',
-    },
+    headers: { 'content-type': 'application/json' },
     body: JSON.stringify({
-      personalizations: [
-        {
-          to: [{ email: toEmail, name: toName }],
-        },
-      ],
-      from: {
-        email: fromEmail,
-        name: fromEmail,
-      },
+      personalizations: [{ to: [{ email: toEmail, name: toName }] }],
+      from: { email: fromEmail, name: fromName },
       subject,
-      content: [
-        {
-          type: 'text/plain',
-          value: body,
-        },
-      ],
+      content: [{ type: 'text/plain', value: body }],
     }),
   });
 

@@ -30,7 +30,7 @@ export const actions = {
       fromName as string,
       SUPPORT_EMAIL_ADDRESS,
       SUPPORT_EMAIL_NAME,
-      subject as string,
+      `Fix Code Indents feedback: ${subject}`,
       body as string
     );
     return {
