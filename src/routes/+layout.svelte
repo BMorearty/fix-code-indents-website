@@ -8,6 +8,8 @@
   <a href="/privacy">Privacy policy</a>
   |
   <a href="/support">Support</a>
+  |
+  <a href="/payment">Payment</a>
 </footer>
 
 <style lang="scss">
