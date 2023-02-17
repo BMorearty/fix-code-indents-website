@@ -4,6 +4,6 @@
 <p>Here are two ways you can pay:</p>
 <ol>
   <li><a href="https://account.venmo.com/u/BMorearty">Venmo me at @BMorearty.</a></li>
-  <li>Send me money on Buy Me a Coffee.</li>
+  <li><a href="https://www.buymeacoffee.com/bmorearty">Send me money on Buy Me a Coffee.</a></li>
 </ol>
 <p>Thanks!</p>
