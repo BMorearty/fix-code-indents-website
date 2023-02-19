@@ -7,13 +7,14 @@
 <h1>Fix Code Indents for Google Docs&trade;</h1>
 <p>
   <u>Fix Code Indents</u> is a Google Docs&trade; utility add-on for developers. It fixes indentation
-  in code you’ve pasted, after Docs&trade; screwed it up by converting every sequence of 4 spaces to
-  a tab. It also preserves any syntax highlighting you may already have applied.
+  in code you’ve pasted, after Docs&trade; screwed it up. It also preserves any syntax highlighting you
+  may already have applied.
 </p>
 <p>
   <em>Works in any language</em>. This does not run Prettier. It does not reformat your code. It
-  just reindents it by converting tabs back to spaces.
+  just reindents it.
 </p>
+<p>Works no matter what indent size the original code had.</p>
 <div class="compare">
   <ScreenGrab src={beforeImg} label="Manual" alt="Before Fix Code Indents" seconds={39.2} />
   <ScreenGrab
@@ -23,13 +24,21 @@
     seconds={5.3}
   />
 </div>
-<h2>Why convert tabs to spaces?</h2>
+<h2>How does Docs™ screw up my indents?</h2>
 <p>
-  Because Google Docs&trade; nonsensically converts every sequence of 4 spaces to a tab when you
-  paste, completely screwing up your indents. And there’s no way to turn it off. This add-on
+  Google Docs&trade; nonsensically converts <em>the last 4 spaces</em> of every space sequence to a tab
+  when you paste, completely screwing up your indents. And there’s no way to turn it off. This add-on
   reverses that nonsense. Phooey.
 </p>
-<h2>But I format my code with tabs</h2>
+<h2>How does this tool fix the indentation?</h2>
+<p>In the text you select, it converts each tab back to 4 spaces.</p>
+<h2>But I indent with 1/2/3/8 etc. tabs, not 4</h2>
+<p>
+  Me too. I indent with 2 spaces. Google Docs™ is so good that it messes up your indents no matter <em
+    >what</em
+  > indent size you use because it converts your pasted code to use a mix of tabs and spaces.
+</p>
+<h2>But I indent with tabs</h2>
 <p>
   If you use tabs, Docs&trade; won’t screw up your pasted code as badly. But it’s still a little
   weird because the indents aren’t a fixed number of character widths. Google Docs&trade; tabs stops
