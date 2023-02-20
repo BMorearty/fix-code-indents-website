@@ -37,22 +37,23 @@
     margin: 0;
     white-space: nowrap;
   }
-  @media (max-width: 500px) {
+  @media (max-width: 580px) {
     h2 {
       font-size: 1.2rem;
     }
   }
   progress {
-    width: 100%;
+    width: 300px;
   }
   img {
-    max-height: 600px;
+    max-width: 300px;
     display: block;
   }
   // Narrow img for mobile
-  @media (max-width: 600px) {
-    img {
-      max-height: 300px;
+  @media (max-width: 640px) {
+    img,
+    progress {
+      width: 100%;
     }
   }
   .donePlaying span {

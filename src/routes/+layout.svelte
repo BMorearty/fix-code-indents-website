@@ -2,7 +2,7 @@
   <nav>
     <a href="/">Home</a>
     |
-    <a href="/payment">Payment</a>
+    <a href="/pricing">Pricing</a>
   </nav>
 </header>
 

@@ -16,7 +16,7 @@
 </p>
 <p>Works no matter what indent size the original code had.</p>
 <div class="compare">
-  <ScreenGrab src={beforeImg} label="Manual" alt="Before Fix Code Indents" seconds={39.2} />
+  <ScreenGrab src={beforeImg} label="Manual" alt="Before Fix Code Indents" seconds={41.8} />
   <ScreenGrab
     src={afterImg}
     label="With Fix Code Indents"
@@ -71,7 +71,7 @@
 <style lang="scss">
   .compare {
     display: grid;
-    grid-template-columns: minmax(112px, 242px) minmax(150px, 353px);
+    grid-template-columns: minmax(150px, 353px) minmax(150px, 353px);
     grid-auto-flow: row;
     grid-gap: 12px;
   }
