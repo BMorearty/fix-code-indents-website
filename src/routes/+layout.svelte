@@ -1,15 +1,21 @@
+<header>
+  <nav>
+    <a href="/">Home</a>
+    |
+    <a href="/payment">Payment</a>
+  </nav>
+</header>
+
 <slot />
 
 <footer>
-  <a href="/">Home</a>
-  |
-  <a href="/terms">Terms of service</a>
-  |
-  <a href="/privacy">Privacy policy</a>
-  |
-  <a href="/support">Support</a>
-  |
-  <a href="/payment">Payment</a>
+  <nav>
+    <a href="/terms">Terms of service</a>
+    |
+    <a href="/privacy">Privacy policy</a>
+    |
+    <a href="/support">Support</a>
+  </nav>
 </footer>
 
 <style lang="scss">
@@ -26,6 +32,11 @@
 
   :global(a) {
     color: #faf;
+  }
+
+  :global(header) {
+    text-align: right;
+    font-size: 20px;
   }
 
   :global(footer) {
