@@ -66,6 +66,7 @@
   input[type='email'],
   textarea {
     display: block;
+    box-sizing: border-box;
     width: 100%;
   }
   input[type='submit'] {
